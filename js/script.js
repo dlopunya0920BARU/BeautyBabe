@@ -43,7 +43,7 @@ function displayProducts(productsToShow) {
         const productCard = `
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="product-card">
-                    <a href="${product.link}" target="_blank">
+                    <a href="${product.link}">
                         <img src="${product.image}" alt="${product.name}" class="product-img">
                         <div class="p-3">
                             <h5 class="text-white">${product.name}</h5>
