@@ -1,0 +1,43 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card a {
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    color: #ffffff; /* Mengatur warna teks jika diperlukan */
+}
+
+.product-card a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover (opsional) */
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        margin-bottom: 20px;
+    }
+}
